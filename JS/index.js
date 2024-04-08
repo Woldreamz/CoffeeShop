@@ -1,7 +1,7 @@
 let menu = document.querySelector('#menu-icon');
-let nav = document.querySelector('#navlist');
+let navlist = document.querySelector('.navlist');
 
 menu.onclick = () => {
-    menu.classList.toggle('bx-menu-alt-right');
-    nav.classList.toggle('open');
+    menu.classList.toggle('bxs-message-x');
+    navlist.classList.toggle('open');
 }

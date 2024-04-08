@@ -4,7 +4,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    font-family: "Roboto", sans-serif;
+    font-family: "Rammetto One", sans-serif;
 }
 
 :root {
@@ -286,7 +286,7 @@ section {
     }
 
     .navlist.open {
-        left: 0
+        left: 0;
     }
 }
 
@@ -335,11 +335,11 @@ section {
 
 @media (max-width: 440px) {
     :root {
-        --big-font: 3.5rem;
+        --big-font: 3.4rem;
     }
 
     .hero-text h5 {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .hero-img {
